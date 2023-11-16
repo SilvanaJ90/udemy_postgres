@@ -1,6 +1,5 @@
--- Funciones condicionales
-
--- CASE 
+-- Conditional functions
+-- *  CASE 
 
 SELECT first_name,
 	CASE 
@@ -9,4 +8,5 @@ SELECT first_name,
 	END AS resultado
 FROM actor;
 
- -- Impri
+ -- Print a new column with the expected result
+
